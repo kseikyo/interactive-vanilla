@@ -1,0 +1,37 @@
+{
+  "hostTag": "$HOST",
+  "fileResolutionTag": "$RESOLUTION",
+  "localHost": "http://127.0.0.1:8081",
+  "productionHost": "",
+  "codec": "video/mp4; codecs=\"avc1.64001f,mp4a.40.2\"",
+  "intro": {
+    "url": "$HOST/timeline/01.intro/01.intro-26.525000-$RESOLUTION.mp4",
+    "at": 20,
+    "options": ["Go Caving", "Collect Wood"],
+    "defaultOption": "Go Caving"
+  },
+  "go caving": {
+    "url": "$HOST/timeline/02.caving/02.caving-26.258000-$RESOLUTION.mp4",
+    "at": 23,
+    "options": ["Retreat", "End"],
+    "defaultOption": "Retreat"
+  },
+  "collect wood": {
+    "url": "$HOST/timeline/02.wood/02.wood-25.689000-$RESOLUTION.mp4",
+    "at": 24,
+    "options": ["End", "Go Caving"],
+    "defaultOption": "End"
+  },
+  "retreat": {
+    "url": "$HOST/timeline/03.retreat/03.retreat-26.235000-$RESOLUTION.mp4",
+    "at": 25,
+    "options": ["End", "Go Caving"],
+    "defaultOption": "End"
+  },
+  "end": {
+    "url": "$HOST/timeline/03.end/03.end-10.000000-$RESOLUTION.mp4"
+  },
+  "videoTest": {
+    "url": "$HOST/test-144.mp4"
+  }
+}
